@@ -10,7 +10,7 @@
 		"lint": "biome check .",
 		"lint:fix": "biome check --write .",
 		"lint:unsafe": "biome check --write --unsafe .",
-		"lint:staged": "biome check --staged --write",
+		"lint:staged": "biome check --staged --write --no-errors-on-unmatched",
 		"dev": "astro dev",
 		"build": "astro check && astro build",
 		"preview": "astro preview",
